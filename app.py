@@ -110,7 +110,7 @@ def main():
         MentalDisorder = 0
 
     st.markdown('### Select Key trait')
-    key_trait = st.selectbox("",key_traits_ls,index = 0,key = 's1')
+    key_trait = st.selectbox("",key_traits_ls,index = 0,key = 's2')
     st.write('key trait',key_trait)
     dict_key_traits[key_trait] = 1
 
