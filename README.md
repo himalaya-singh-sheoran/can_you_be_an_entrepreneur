@@ -9,5 +9,5 @@ pip install -U -r requirements.txt
 ```
 Then,
 ```python
-streamlit run recomm.py
+streamlit run app.py
 ```
