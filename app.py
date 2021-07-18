@@ -111,7 +111,6 @@ def main():
 
     st.markdown('### Select Key trait')
     key_trait = st.selectbox("",key_traits_ls,index = 0,key = 's2')
-    st.write('key trait',key_trait)
     dict_key_traits[key_trait] = 1
 
     values_ls = [int(individual_project),int(age),int(Gender),int(City),int(Influenced),int(Perseverance),int(DesireToTakeInitiative),int(Competitiveness),\
